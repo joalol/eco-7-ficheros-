@@ -1,0 +1,15 @@
+<?php
+require_once ('conexion.php'); // llama al archivo con los datos para conectarse a la 
+//nombre en base de datos=$_GET['nombre en el formulari];
+$nombre=$_GET ['nombre'];//listar todos los campos que quiero guardar 
+$apellido=$_GET['apellido'];
+
+
+
+
+$con=new conecion ();
+
+
+
+
+?>
